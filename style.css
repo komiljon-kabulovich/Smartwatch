@@ -1,0 +1,347 @@
+
+@font-face {
+    font-family: Poopins;
+    src: url(./Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(./Fonts/Roboto/Roboto-Regular.ttf);
+}
+.navbar-items{
+    margin-left: 300px;
+}
+
+.navbar-items ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px;
+}
+.navbar-items ul a{
+text-decoration:none;
+color: black;
+font-family: Roboto;
+}
+.navbar-items ul :nth-child(5){
+    background-color: #1617DB;
+    width: 94px;
+    height: 20px;
+    border-radius: 6px;
+    padding: 15px 30px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Poopins;
+}
+.page-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-side{
+    width: 500px;
+    height: 470px;
+    margin-left: 50px;
+}
+.text-side p{
+    width: 250px;
+    height: 35px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #1617DB;
+    margin-bottom: -70px;
+}
+.text-side h1{
+    width: 425px;
+    height: 250px;
+    font-weight: 700;
+    font-size: 67px;
+    line-height: 90px;
+    font-family: Poopins;
+}
+.text-side h2{
+    width: 400  px;
+    height: 70px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #01010D;
+    font-family: Poopins;
+}
+.text-side-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.text-side-btn1{
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    padding:15px 30px;
+    background-color: #1617DB;
+    color: white;
+    font-size: 16px;
+    border: none;
+   
+}
+.text-side-btn2{
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    padding:15px 30px;
+    background-color: transparent;
+    color: #6565EC;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #1617DB33;
+}
+.page-one-img{
+    width: 860px;
+    height: 500px;
+}
+.page-one-img img{
+    width: 700px;
+    height: 400px;
+}
+.little-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.little-section h1{
+    width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-family: Poopins;
+    font-size: 50px;
+    color: #01010D;
+}
+.little-section h2{
+    width: 430px;
+    height: 100px;
+    font-family: Poopins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #01010D;
+}
+.page-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-side{
+    position: absolute;
+    margin-left: 40px;
+}
+.android img{
+    position: relative;
+    left: 275px;
+}
+.left-side h1{
+    width: 172px;
+    height: 30px;
+    position: relative;
+    font-family: Poopins;
+    font-weight: 600;
+    font-size: 20px;
+    left: 272px;
+}
+.left-side h2{
+    position: relative;
+    left: 281px;
+    width: 166px;
+    height: 24px;
+    margin-top: -10px;
+    font-family: Poopins;
+    font-weight: 400;
+    font-size: 16px;
+}
+.middle-side img{
+position: relative;
+width: 500px;
+height: 425px;
+left: 600px;
+}
+.right-side{
+    margin-right: 40px;
+    position: absolute;
+}
+.right-side div img{
+    position: relative;
+    left: 1147px;
+}
+.right-side div h1{
+    position: relative;
+    left: 1189px;
+    width: 108px;
+    height: 32px;
+    font-family: Poopins;
+    font-weight: 600;
+    font-size: 20px;
+    align-items: center;
+}
+.right-side div h2{
+    position: relative;
+    left: 1143px;
+    width: 172px;
+    height: 24px;
+    margin-top: -10px;
+    font-family: Poopins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.little-section2{
+    margin:70px 70px;
+    width: 600px;
+    height: 170px;
+}
+.little-section2 p{
+    font-family: Poopins;
+    font-weight: 400;
+    font-size: 14px;
+    color:  #1617DB;
+}
+.little-section2 h1{
+    width: 583px;
+    height: 60px;
+    font-family: Poopins;
+    font-weight: 800;
+    font-size: 50px;
+    color: #01010D;
+    margin-top: -20px;
+}
+
+.little-section2 h2{
+    width: 485px;
+    height: 72px;
+    font-family: Poopins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #01010D;
+    margin-top: -20px;
+}
+.watches-ad-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.video-ad-watch{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.video-ad-watch h1{
+    width: 485px;
+    height: 122px;
+    font-family: Poopins;
+    font-weight: 700;
+    font-size: 50px;
+    color: #01010D;
+}
+.video-ad-watch h2{
+    width: 440px;
+    height: 70px;
+    font-family: Poopins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #01010D;
+}
+.video-ad-watch button{
+    width: 136px;
+    height: 36px;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid #E5E5E5;
+    color: #1617DB;
+    margin-top: 30px;
+}
+.quota-page{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.border-quota{
+    width: 691px;
+    height: 283px;
+    position: relative;
+    background-color: #F4F4F4;
+    
+}
+.border-quota h1{
+    top: 30px;
+    left: 50px;
+    position: absolute;
+    width: 550px;
+    height: 96px;
+    font-family: Poopins;
+    font-weight: 400px;
+    font-size: 16px;
+}
+.quota-author{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 170px;
+    left: 80px;
+}
+.quota-img{
+position: absolute;
+    left: 220px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    background-color: #F7F7F7;
+}
+
+.logo p{
+width: 160px;
+height: 38px;
+font-family: Poopins;
+font-weight: 400;
+font-size: 16px;
+}
+.socials{
+    font-size: 20px;
+    color: black;
+    margin-top: 40px; 
+}
+.socials a{
+    color: black;
+    margin: 20px; 
+    
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+}
+.lists ul{
+    list-style: none;
+    margin: 50px;
+}
+.lists ul p{
+    font-family: Poopins;
+    font-weight: 600;
+    font-size: 16px;
+}
+.lists ul li{
+    margin-bottom: 10px;
+    
+}
+subscribe
